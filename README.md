@@ -21,8 +21,10 @@ Refer to https://github.com/lehmannro/assert.sh for other test commands besides 
 
 ## Troubleshooting
 If you see this when excuting `./run-tests.sh`:
-```test #1 "./is-hypervisor-present" failed:
-	program terminated with code 127 instead of 0```
+```
+test #1 "./is-hypervisor-present" failed:
+program terminated with code 127 instead of 0
+```
 
 it means that "./is-hypervisor-present" is not found. Check that it's compiled and named correctly.
 
