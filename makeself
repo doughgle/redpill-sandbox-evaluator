@@ -1,0 +1,4 @@
+#/bin/bash
+# requires makeself.sh to be installed (https://github.com/megastep/makeself) and on the $PATH
+
+makeself.sh --tar-extra "--exclude=.git --exclude-ignore=.makeself-ignore" . redpill "Redpill Sandbox Evaluator" ./redpill-detux.sh
