@@ -2,6 +2,8 @@
 #include <sys/stat.h>
 #include <string.h>
 #include <fcntl.h>
+#include <unistd.h>
+#include <stdlib.h>
 
 int isDebuggerPresent()
 {
