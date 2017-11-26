@@ -28,6 +28,12 @@ program terminated with code 127 instead of 0
 
 it means that "./is-hypervisor-present" is not found. Check that it's compiled and named correctly.
 
+If you see
+```
+program terminated with code 126 instead of 0
+```
+it likely means that execute permissions are not set correctly.
+
 ### References
 
 https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1009458
